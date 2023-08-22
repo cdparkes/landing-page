@@ -74,9 +74,10 @@ a {
     font-size: 18px;
 }
 
-.heroButton {
+.heroButton,
+.signUpBottom {
     border-radius: 10px;
-    width: 150px;
+    width: 100px;
     height: 30px;
     color: white;
     background-color: #3882F6;
@@ -158,6 +159,46 @@ a {
 .quoted {
     padding: 0 400px;
     margin-left: auto;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 24px;
+}
+
+.signUpContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;
+}
+
+.blueBox {
+    background-color: #3882F6;
+    padding: 50px 100px;
+    border-radius: 15px;
+    flex: 1 1 100%;
+    display: flex;
+}
+
+.leftSignUp {
+    flex: 1 1 70%;
+}
+
+.topLeftSignUp,
+.bottomLeftSignUp {
+    color: #F9FAF8;
+}
+
+.topLeftSignUp {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.rightSignUp {
+    display: flex;
+    flex: 1 1 30%;
+    margin: auto;
+    justify-content: center;
+}
+
+.signUpBottom {
+    border: 2px solid #F9FAF8;
 }
