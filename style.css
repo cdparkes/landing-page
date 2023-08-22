@@ -92,3 +92,52 @@ a {
     flex: 1;
     color: white;
 }
+
+.cardContainer,
+.cardHolder,
+.card {
+    display: flex;
+}
+
+.cardHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 50px 0;
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1F2937;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.cardContainer {
+    flex-direction: column;
+    padding: 0 200px 100px 200px;
+}
+
+.card {
+    flex: 0 0 25%;
+    max-width: 200px;
+    flex-direction: column;
+}
+
+.cardHolder {
+    justify-content: center;
+    gap: 50px;
+}
+
+.border {
+    border-color: #3882F6;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+}
+
+.subtext {
+    max-width: 150px;
+    text-align: center;
+    color: #1F2937;
+    font-weight: bold;
+}
