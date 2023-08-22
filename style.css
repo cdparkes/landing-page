@@ -141,3 +141,23 @@ a {
     color: #1F2937;
     font-weight: bold;
 }
+
+.quoteBox {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    padding: 0 400px;
+}
+
+.quoted {
+    padding: 0 400px;
+    margin-left: auto;
+    font-weight: bold;
+    font-size: 24px;
+}
