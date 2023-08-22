@@ -44,7 +44,7 @@ a {
     padding: 50px 0px 100px 0px;
     flex: 1;
     align-items: center;
-    
+    gap: 50px;
 }
 
 .leftHeroText {
@@ -66,7 +66,7 @@ a {
 .heroHeader {
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: bold
+    font-weight: bold;
 }
 
 .secondaryHeroText {
